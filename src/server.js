@@ -10,8 +10,6 @@ require('../models/db');
 
 const { graphqlHTTP } = require('express-graphql')
 
-var test = require("../models/test");
-
 const {
   GraphQLSchema,
   GraphQLObjectType,
@@ -95,14 +93,6 @@ async function main() {
     name: "Query",
     description: "Root Query",
     fields: () => ({
-      test: {
-        type: GraphQLString,
-        resolve: () => {
-          var find = await test.find();
-
-          return find.Test;
-        }
-      },
       game: {
         type: GameType,
         description: "Get single game",
