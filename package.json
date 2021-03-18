@@ -4,12 +4,8 @@
   "description": "GraphQL demo - simple resolver served over http",
   "main": "server.js",
   "scripts": {
-<<<<<<< HEAD
-    "start": "node -r esm src/server.js"
-=======
     "start": "node -r esm src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> parent of 2ce7506 (games)
   },
   "author": "Poul Ejnar Rovsing / Samer Buna",
   "license": "ISC",
@@ -21,11 +17,5 @@
     "express-graphql": "^0.12.0",
     "graphql": "^15.5.0",
     "morgan": "^1.10.0"
-<<<<<<< HEAD
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-=======
->>>>>>> parent of 2ce7506 (games)
   }
 }
