@@ -6,7 +6,7 @@ import morgan from 'morgan';
 
 import * as config from './config';
 
-//require('../models/db');
+require('../models/db');
 
 const { graphqlHTTP } = require('express-graphql')
 
